@@ -1,0 +1,19 @@
+{
+  "name": "kursayin.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narek6/kursayin.git"
+  },
+  "author": "Narek Smavonyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narek6/kursayin/issues"
+  },
+  "homepage": "https://github.com/Narek6/kursayin#readme"
+}
