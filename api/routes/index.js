@@ -1,13 +1,6 @@
-function signin(req, res){
-    return res.status(200).send((success:true, msg:'signin ashxatec'))/
+const controllers = require('../controllers/contollers.js');
 
-}
-function signup(req,res){
-    return resstatus(200).send((success:true, msg:'signup asxatec'))
-}
-
-module.express = function (app) {
-    app.route('/signup').post(useCtrl.signup);
-    app.route('/signin')
-        .post(userCtrl.signin);
-}
+module.exports = function (app) {
+    app.route('/signup').post(controllers.signUp);
+    app.route('/signin').post(controllers.signIn);
+};
